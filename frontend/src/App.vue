@@ -1,10 +1,7 @@
 
 
 <template>
-  <div>
-    <h1>{{ message }}</h1>
-  </div>
-  ssss
+  <HelloWorld></HelloWorld>
 </template>
 
 <script>
