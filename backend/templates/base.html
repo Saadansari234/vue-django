@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="{% static 'dist/assets/main.css' %}">
+</head>
+
+<body>
+
+    <h1>hello from django</h1>
+    <div id="comp1" data-component="CartWidget" data-props='{"name": "Saad"}'></div>
+    <div id="comp2" data-component="CartWidget" data-props='{"name": "Sami"}'></div>
+    <div id="comp3" data-component="ProductCard" data-props='{"name": "ansari"}'></div>
+    <div id="comp4" data-component="MyComponent" data-props='{"name": "ansari"}' ></div>
+
+
+    <script type="module" src="{% static 'dist/assets/main.js' %}"></script>
+   
+
+  
+</body>
+
+</html>

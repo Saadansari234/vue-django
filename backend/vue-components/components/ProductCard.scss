@@ -1,0 +1,9 @@
+.my-box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: #e0e0e0;
+  }
+}
